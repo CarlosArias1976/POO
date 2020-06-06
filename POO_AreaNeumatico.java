@@ -39,12 +39,54 @@ public class POO_AreaNeumatico {
         
         System.out.println("&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&");
         
-        System.out.println ("Abstraccion");
+        
         /* a)Objeto b)Clase de objeto         
         */
         String Abstraccion=objeto.nextLine();
         System.out.println("+++++++++++++++++++++++++++++++++++++++++++");
-        System.out.println("UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE");
+        
+        System.out.println ("Encapsulamiento");
+        System.out.println ("Ingresar Sistema");
+        /*Automovil
+        */
+        String IngresarSistema=objeto.nextLine();
+        System.out.println ("Ingresar Modulo");
+        /*Neumaticos
+        */
+        String IngresarModulo=objeto.nextLine();
+        System.out.println ("Ingresar Objeto ");
+        /*Neumatico*/
+        String IngresarObjeto=objeto.nextLine();
+        System.out.println ("Ingresar Clases de Objetos");
+        /* a)Tipo de neumatico b)Caracteristicas*/
+        String IngresarClasesDeObjetos=objeto.nextLine();
+        System.out.println ("Ingresar Atributos");
+        /*a)Transporte_pesado  b)Transporte_liviano
+        c)Ancho d)Alto; e)Rin; f)Fecha_de_fabricacion;
+
+        */        
+        String IngresarAtributos=objeto.nextLine();
+        System.out.println ("Ingresar Servicios");
+        /*a)Identificar_transporte_pesado() b)Identificar_transporte_liviano() c)Identificar_ancho() d)Identificar_alto() e) Identificar_rin() f)Identificar_fecha_de_fabricacion()
+        
+        */                                                                                                  
+
+;
+        String IngresarServicios=objeto.nextLine();
+        
+        System.out.println ("-------------------------------------------------");
+        System.out.println (" Modularidad");
+        System.out.println ("Ingresar Sistema Modulo");
+        /*Automovil*/
+        String IngresarSistemaModulo=objeto.nextLine();
+        System.out.println ("Ingresar Modulo Principal");
+        /*Neumatico*/
+        String IngresarModuloPrincipal=objeto.nextLine();
+        System.out.println ("ingresar subModulos");
+        /*a)Tipo b)Medidas c)Clasificacion */
+        String IngresarSubModulos=objeto.nextLine();        
+        System.out.println("______________________________________________________");
+        System.out.println("");
         System.out.println("");
         System.out.println("PRONOSTICO DEL AREA DE CONTACTO DE LOS NEUMATICOS DE UN VEHICULO ");
         System.out.println("VIA REDES NEURONALES RECURRENTES");
@@ -56,6 +98,19 @@ public class POO_AreaNeumatico {
         System.out.println(""+DiseñoObjetos);
         System.out.println("Abstraccion:");
         System.out.println(""+Abstraccion);
+        System.out.println("Encapsulamiento:");
+        System.out.println(""+IngresarSistema);
+        System.out.println(""+IngresarModulo);
+        System.out.println(""+IngresarObjeto);
+        System.out.println(""+IngresarClasesDeObjetos);
+        System.out.println(""+IngresarAtributos);
+        System.out.println(""+IngresarServicios);
+        System.out.println("Modularidad:");
+        System.out.println(""+IngresarSistema);
+        System.out.println(""+IngresarModuloPrincipal);
+        System.out.println(""+IngresarSubModulos);
+        
+        
         
         System.out.println("____________________________________________________________________________________");
         
